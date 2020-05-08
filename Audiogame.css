@@ -1,0 +1,57 @@
+audio{
+	margin-left: 5%;
+}
+p{
+	text-align: center; 
+	background-color: grey;
+	color: white;
+	font-size: 20px;
+}
+body{
+	background-color:#b285ed;
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+	font-family: Trebuchet MS;
+	color:white;
+	text-shadow: 0 0 3px #FF0000;
+}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items:center;
+	padding: 10px;
+	margin: 8px;
+}
+.d{
+	position: relative;
+	border-radius: 20px;
+	background-color: white;
+	margin:10px;
+	width: 200px;
+	height: 200px;
+	transition: transform 0.3s;
+	text-align: center;
+	transform-style: preserve-3d;
+	font-size: 40px;
+	font-family: Arial Black;
+	color: #4d5f75;
+}
+.coo{
+	transform: rotateY(180deg);
+	background-color: green;
+}
+.doo{
+	transform: rotateY(180deg);
+	background-color: red;
+}
+button{
+	margin-left:40%;
+	padding: 10px;
+	border-radius:20px;
+}
+button:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
